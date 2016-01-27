@@ -1,0 +1,18 @@
+{
+    "require": {
+        "react/http": "^0.4.1",
+        "cboden/ratchet": "^0.3.3",
+        "ratchet/pawl": "^0.1.2",
+        "guzzlehttp/guzzle": "^6.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "MadMind\\RROP\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "MadMind\\RROP\\Test\\": "tests/"
+        }
+    }
+}
